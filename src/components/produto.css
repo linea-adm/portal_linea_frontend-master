@@ -1,0 +1,281 @@
+.navbar {
+  background-color: #333!important;
+  color: #fff;
+}
+.custom-loader {
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:conic-gradient(#0000 10%,#ffffff);
+  -webkit-mask:radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+  animation:s3 1s infinite linear;
+}
+@keyframes s3 {to{transform: rotate(1turn)}}
+
+
+.navbar-brand {
+  color: #fff;
+  font-size: 16px;
+}
+
+#title-nav{
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 30px;
+  color: white;
+
+}
+
+#Logo {
+ width: 9vh;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ margin-right: 30px;
+ margin-left: 15px;
+}
+
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+body{
+  overflow: auto;
+}
+
+.container {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.titulo-produto{
+  background-color: #FECA78;
+  padding: 10px;
+  color: #333;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  margin-top: 27px;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: left;
+  text-align: left;
+}
+
+.detalhes-produto{
+  background-color: #FECA78;
+  padding: 10px;
+  color: #333;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  font-size: 14px;
+  justify-content: left;
+  text-align: left;
+}
+
+.card {
+  background-color: #E6E8EF;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.card-title {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-body{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #E6E8EF;
+  border-radius: 5px;
+}
+
+.card-body h5{
+  font-size: 15px;
+}
+
+.card-title p {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.table th {
+  background-color: #f8f9fa;
+  color: #333;
+  font-weight: bold;
+}
+
+.total-row {
+  font-weight: bold;
+}
+
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #dae7ff;
+  color: #fff;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #fff;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 50px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container h5{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+.footer {
+  background-color: #326295;
+  color: #fff;
+  padding: 10px;
+  text-align: right;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.footer p {
+  margin-bottom: 0;
+  margin-right: 10px1;
+}
+
+.table th, .table tr td {
+  font-size: 14px!important;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para a barra de rolagem */
+/* Chrome, Safari, Opera */
+::-webkit-scrollbar {
+width: 8px;
+}
+
+::-webkit-scrollbar-track {
+background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: #333;
+border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:active {
+background-color: #848484; /* Cor mais clara ao clicar */
+}
+
+/* Firefox */
+::-moz-scrollbar {
+width: 8px;
+}
+
+::-moz-scrollbar-track {
+background-color: #f1f1f1;
+}
+
+::-moz-scrollbar-thumb {
+background-color: #333;
+border-radius: 6px;
+}
+
+::-moz-scrollbar-thumb:active {
+background-color: #848484; /* Cor mais clara ao clicar */
+}
+
+/* IE, Edge */
+::-ms-scrollbar {
+width: 8px;
+}
+
+::-ms-scrollbar-track {
+background-color: #f1f1f1;
+}
+
+::-ms-scrollbar-thumb {
+background-color: #333;
+border-radius: 6px;
+}
+
+::-ms-scrollbar-thumb:active {
+background-color: #848484; /* Cor mais clara ao clicar */
+}
+
+.img {
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.form-input {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.form-input {
+width: 100px;
+height: 20px;
+padding: 2px;
+font-size: 12px;
+margin-bottom: 5px;
+}
+
+.form-label {
+width: 100px;
+font-size: 12px;
+text-align: right;
+margin-right: 10px;
+}
+
+.form-row {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.col {
+flex: 1;
+margin-right: 10px;
+}
+.form-inline .form-group {
+display: flex;
+align-items: center;
+margin-right: 10px;
+}
+
+
+.home-container{
+background: none;
+box-shadow: none;
+}  

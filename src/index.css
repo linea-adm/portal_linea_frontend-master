@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Em seu arquivo CSS */
+.texto-pequeno {
+  font-size: 1.2rem; /* Ou o tamanho que você preferir */
+}
+.list-unstyled {
+  list-style-type: none;
+  padding-left: 0;
+}
+.text-bigger {
+  font-size: 0.85em;
+}
+.margin-item {
+  background-color:  rgb(212, 212, 212);
+
+  margin:1px;
+  padding: 4px;
+}
+.padding-item {
+  margin-top: -5px;
+}
+.val-list{
+  margin-top: -10px!important
+}
+ml-20{
+  margin-left: 20px;
+}
