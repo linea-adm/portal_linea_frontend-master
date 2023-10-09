@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate  } from 'react-router-dom'; 
 import NavBar from './NavBar';
 import ProductList from '../components/ProductList';
 import EntradasList from '../components/EntradasList';
 import EstoqueCurto from '../components/EstoqueCurto';
 import moment from 'moment';
-import { useHistory } from 'react-router-dom';
 
 
 import './produto.css';
@@ -14,6 +13,7 @@ import { formatNumber, validateToken } from './helpers';
 
 function Analytics() {
 
+  const history = useNavigate(); 
   const { codigo, quantidade } = useParams();
   const [descricaoProduto, setDescricaoProduto] = useState('');
   const [totalDisponivel, setTotalDisponivel] = useState(0);
@@ -149,8 +149,7 @@ function Analytics() {
   }
 
   if (error) {
-    history.push('/login'); 
-    ;
+    history('/login'); 
   }
   const setTotalFromProductList = (total) => {
     setTotalDisponivel(formatNumber(total));
